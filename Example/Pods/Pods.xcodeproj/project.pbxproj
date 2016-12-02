@@ -34,14 +34,14 @@
 		01B5657723231328936A4653B1C64C37 /* Pods-iOSContextualMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSContextualMenu_Tests-resources.sh"; sourceTree = "<group>"; };
 		0C6189182B42B213EE1BF2E6FB106014 /* Pods-iOSContextualMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSContextualMenu_Tests-dummy.m"; sourceTree = "<group>"; };
 		107EB8416769BBF084321C2146C22062 /* iOSContextualMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSContextualMenu-umbrella.h"; sourceTree = "<group>"; };
-		11EE408A265E73C3961A6E40A9CD7632 /* Pods_iOSContextualMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSContextualMenu_Example.framework; path = "Pods-iOSContextualMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EE408A265E73C3961A6E40A9CD7632 /* Pods_iOSContextualMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSContextualMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E58B6C1A8072838FFD25D617DBE50F /* Pods-iOSContextualMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSContextualMenu_Example-resources.sh"; sourceTree = "<group>"; };
 		1610A378AAB48EE8087096FE49EC63AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1806BCC89DD84FE1A3F12E2FAACEE74F /* Pods_iOSContextualMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSContextualMenu_Tests.framework; path = "Pods-iOSContextualMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806BCC89DD84FE1A3F12E2FAACEE74F /* Pods_iOSContextualMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSContextualMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C51F9C6A7AE068F61B1CE96346D9893 /* Pods-iOSContextualMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSContextualMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1E0BE6AD7233B4552B7A4C13C72FBC93 /* Pods-iOSContextualMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSContextualMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27F7D767CA4D72EF3E0E6A45FA2DFB2A /* Pods-iOSContextualMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSContextualMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E3C4960D6AA9C6BB005BF11CD318E76 /* iOSContextualMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSContextualMenu.framework; path = iOSContextualMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3C4960D6AA9C6BB005BF11CD318E76 /* iOSContextualMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSContextualMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EFF07C1AF92AAC0FD6CDBA3BFF5D57 /* Pods-iOSContextualMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSContextualMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3921C8BFA8359FFD5373DB09EAE39A99 /* Pods-iOSContextualMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSContextualMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3CA43267645C701CAC76CFA2AC6AB9DB /* BAMContextualMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BAMContextualMenu.m; sourceTree = "<group>"; };
@@ -50,18 +50,18 @@
 		532CAFA26889715FCA92029766C36890 /* iOSContextualMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSContextualMenu-prefix.pch"; sourceTree = "<group>"; };
 		571DE2C721CF06A7CB615087E45CA334 /* Pods-iOSContextualMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSContextualMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5873C68ED637A962515B524E94191C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A5A64A983F5FEAAA28AC4B4EE927A26 /* Pods-iOSContextualMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSContextualMenu_Example.modulemap"; sourceTree = "<group>"; };
+		5A5A64A983F5FEAAA28AC4B4EE927A26 /* Pods-iOSContextualMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSContextualMenu_Example.modulemap"; sourceTree = "<group>"; };
 		71BF0A80E93CE07562C5A5A3EF70B1A4 /* iOSContextualMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSContextualMenu-dummy.m"; sourceTree = "<group>"; };
 		7B765591E58A5FA2ED477870EFAAEE5A /* Pods-iOSContextualMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSContextualMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		8D4A2ACA3038C70A47EB589CE0484230 /* Pods-iOSContextualMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSContextualMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4E7F38CA834A38CB397A752B24B32FB /* BAMContextualMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BAMContextualMenu.h; sourceTree = "<group>"; };
 		A680E8C3DCF895917F68BBA836A95C38 /* iOSContextualMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSContextualMenu.xcconfig; sourceTree = "<group>"; };
 		ACC4EC20126F121B7A0B0D2D377D68DB /* Pods-iOSContextualMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSContextualMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7D09C6E8A79137B497F8056E9607510 /* Pods-iOSContextualMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSContextualMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CB93D8FE33AB2B8592E0A7A8330867AB /* iOSContextualMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iOSContextualMenu.modulemap; sourceTree = "<group>"; };
+		CB93D8FE33AB2B8592E0A7A8330867AB /* iOSContextualMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iOSContextualMenu.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1C6A43BC3E3122BF1D6CC12DBBC1504 /* Pods-iOSContextualMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSContextualMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		E1C6A43BC3E3122BF1D6CC12DBBC1504 /* Pods-iOSContextualMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSContextualMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		FE4382C2CDCD5E328D2345549A0C3C91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE83E31D6B30D8BFF9786CE2979C4B81 /* Pods-iOSContextualMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSContextualMenu_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +110,6 @@
 				A4E7F38CA834A38CB397A752B24B32FB /* BAMContextualMenu.h */,
 				3CA43267645C701CAC76CFA2AC6AB9DB /* BAMContextualMenu.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -197,7 +196,6 @@
 			children = (
 				3A7597A9B59BF965ED19CBBDD82FF3F9 /* Classes */,
 			);
-			name = iOSContextualMenu;
 			path = iOSContextualMenu;
 			sourceTree = "<group>";
 		};
@@ -317,7 +315,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0810;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -526,14 +524,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -601,15 +603,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
