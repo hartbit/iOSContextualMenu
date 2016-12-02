@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSContextualMenu_Example' do
+  pod 'iOSContextualMenu', :path => '../'
+
+  target 'iOSContextualMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

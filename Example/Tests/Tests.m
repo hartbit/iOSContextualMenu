@@ -1,18 +1,18 @@
 //
-//  Contextual_MenuTests.m
-//  Contextual MenuTests
+//  iOSContextualMenuTests.m
+//  iOSContextualMenuTests
 //
-//  Created by Hector on 4/18/14.
-//  Copyright (c) 2014 CodeNinja. All rights reserved.
+//  Created by David Hart on 12/02/2016.
+//  Copyright (c) 2016 David Hart. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+@import XCTest;
 
-@interface Contextual_MenuTests : XCTestCase
+@interface Tests : XCTestCase
 
 @end
 
-@implementation Contextual_MenuTests
+@implementation Tests
 
 - (void)setUp
 {
@@ -32,3 +32,4 @@
 }
 
 @end
+

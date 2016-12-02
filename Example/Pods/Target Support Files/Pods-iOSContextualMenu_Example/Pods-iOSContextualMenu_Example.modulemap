@@ -1,0 +1,6 @@
+framework module Pods_iOSContextualMenu_Example {
+  umbrella header "Pods-iOSContextualMenu_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

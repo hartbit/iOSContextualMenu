@@ -192,6 +192,7 @@
         case kBAMContextualMenuActivateOptionLongPress: {
             longPressActivationGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressActivated:)];
             longPressActivationGestureRecognizer.delegate = self;
+			longPressActivationGestureRecognizer.minimumPressDuration = 0.2;
             [self.containerView addGestureRecognizer:longPressActivationGestureRecognizer];
             
             startCircleView.hidden = NO;
