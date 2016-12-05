@@ -160,6 +160,23 @@
 
 #pragma mark Setters
 
+- (void)setShouldActivateMenu:(BOOL)shouldActivateMenu
+{
+	_shouldActivateMenu = shouldActivateMenu;
+	
+	if (longPressActivationGestureRecognizer) {
+		longPressActivationGestureRecognizer.enabled = shouldActivateMenu;
+	}
+	
+	if (tapGestureRecognizer) {
+		tapGestureRecognizer.enabled = shouldActivateMenu;
+	}
+	
+	if (shadowGestureRecognizer) {
+		shadowGestureRecognizer.enabled = shouldActivateMenu;
+	}
+}
+
 - (void)setShouldHighlightOutwards:(BOOL)shouldHighlightOutwards
 {
     _shouldHighlightOutwards = shouldHighlightOutwards;
@@ -700,11 +717,11 @@
                 menuItem = [self.delegate contextualMenu:self viewForMenuItemAtIndex:index];
                 
                 if (!menuItem) {
-                    _shouldActivateMenu = NO;
+                    self.shouldActivateMenu = NO;
                     [NSException raise:@"contextualMenu:viewForMenuItemAtIndex: can NOT be nil or invalid." format:@"View returned at index %lu is invalid. (%@)", (unsigned long)index, menuItem];
                 }
             } else {
-                _shouldActivateMenu = NO;
+                self.shouldActivateMenu = NO;
                 [NSException raise:@"BAMContextualMenu's delegate MUST implement contextualMenu:viewForMenuItemAtIndex:" format:@""];
             }
             
@@ -793,7 +810,7 @@
         }
     }
     
-    _shouldActivateMenu = (contextualMenuItems.count > 0);
+    self.shouldActivateMenu = (contextualMenuItems.count > 0);
 }
 
 - (void)reloadDataAndRelayoutSubviews
